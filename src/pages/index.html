@@ -1,0 +1,963 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="http://at.alicdn.com/t/font_2252699_s1b3cq0zxai.css">
+  <link rel="stylesheet" href="../assets/swiper/swiper-bundle.css">
+  <link rel="stylesheet" href="../css/iconfont.css">
+  <link rel="stylesheet" href="../sass/public.css">
+  <link rel="stylesheet" href="../sass/index.css">
+
+  <title>首页</title>
+</head>
+<body>
+  <div id="app">
+    <div>
+      <!-- 顶部导航栏 -->
+      <div class="header">
+        <!-- 顶部背景图 -->
+        <div id="topBanner">
+          <div class="topbar-banner">
+            <a href="#" class="link-block"></a>
+          </div>
+        </div>
+        <!-- 顶部导航栏 -->
+        <div class="top_nav">
+          <div class="center">
+            <!-- 左侧列表 -->
+            <div class="nav_left">
+              <ul>
+                <li>
+                  <a href="#">小米商城</a>
+                  <span>|</span>
+                </li>
+                <li>
+                  <a href="#">MIUI</a>
+                  <span>|</span>
+                </li>
+                <li>
+                  <a href="#">loT</a>
+                  <span>|</span>
+                </li>
+                <li>
+                  <a href="#">云服务</a>
+                  <span>|</span>
+                </li>
+                <li>
+                  <a href="#">天星数科</a>
+                  <span>|</span>
+                </li>
+                <li>
+                  <a href="#">有品</a>
+                  <span>|</span>
+                </li>
+                <li>
+                  <a href="#">小爱开放平台</a>
+                  <span>|</span>
+                </li>
+                <li>
+                  <a href="#">企业团购</a>
+                  <span>|</span>
+                </li>
+                <li>
+                  <a href="#">资质证照</a>
+                  <span>|</span>
+                </li>
+                <li>
+                  <a href="#">协议规则</a>
+                  <span>|</span>
+                </li>
+                <li class="app">
+                  <a href="#">下载app</a>
+                  <span>|</span>
+                  <div>
+                    <img src="../img/download.png" style="width: 90px; height: 90px;">
+                    小米商城APP
+                  </div>
+                </li>
+                <li>
+                  <a href="#">智能生活</a>
+                  <span>|</span>
+                </li>
+                <li>
+                  <a href="#">Select&nbsp;Location</a>
+                </li>
+              </ul>
+            </div>
+            <!-- 购物车 -->
+            <div class="cart">
+              <a href="./cart.html">
+                <em class="iconfont icon-shoppingCart"></em>
+                <em class="iconfont-cart-full">购物车</em>
+                <span class="cart_num">(0)</span>
+              </a>
+              <div class="cart-menu" id="J_miniCarMenu">
+                <div class="menu-content">
+                   
+                </div>
+              </div>
+            </div>
+            <!-- 右侧列表 -->
+            <div class="nav_right">
+                <p class="on text-danger hide"></p>
+              <a href="./login.html" class="off">登录</a>
+								<span class="off">|</span>
+								<a href="./login.html" class="off">注册</a>
+                <span>|</span>
+								<a href="">消息通知</a>
+								<span></span>
+            </div>
+          </div>
+        </div>
+        <div class="top_header">
+          <div class="center">
+            <!-- 小米logo -->
+            <div class="header_logo">
+              <a href="./index.html" class="logo ir" title="小米官网"></a>
+            </div>
+            <!-- 导航栏 -->
+            <div class="header_nav">
+              <ul class="nav-list">
+                <li id="navCategory" class="nav-category">
+                  <a href="#" class="link-category">
+                    <span class="text">全部商品分类</span>
+                  </a>
+                  <!-- 一级菜单 -->
+                  <div class="site-category" style="display: block;">
+                    <ul class="category-list">
+                      <li class="category-item">
+                        <a href="#" class="title">
+                          手机 电话卡
+                          <em class="iconfont icon-youjiantou"></em>
+                        </a>
+                        <div class="children children-col-4">
+                          <ul class="children-list children-list-col children-list-col-1">
+                            <li>
+                              <a href="./list.html" class="link">
+                                <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/5ca871528d3420622f21f25be7aba58c.png?thumb=1&w=50&h=50&f=webp&q=90" alt="" style="width: 40px;height: 40px;">
+                                <span class="text">小米10 至尊纪念版</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="./list.html" class="link">
+                                <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/4a7a4f24061860901f724b6ba6d75fd9.png?thumb=1&w=50&h=50&f=webp&q=90" alt="" style="width: 40px;height: 40px;">
+                                <span class="text">小米10</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="./list.html" class="link">
+                                <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cc563c76a7383d8030d1c23f31c60cb9.png?thumb=1&w=50&h=50&f=webp&q=90" alt="" style="width: 40px;height: 40px;">
+                                <span class="text">小米10 青春版</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="./list.html" class="link">
+                                <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/69a0df49cff71107977bbe3b48af15fa.png?thumb=1&w=50&h=50&f=webp&q=90" alt="" style="width: 40px;height: 40px;">
+                                <span class="text">Redmi K30S 至尊纪念版</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="./list.html" class="link">
+                                <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/0803dc7125ffa3447b04b1ae60f57a2b.jpg?thumb=1&w=50&h=50&f=webp&q=90" alt="" style="width: 40px;height: 40px;">
+                                <span class="text">Redmi K30 至尊纪念版</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="./list.html" class="link">
+                                <img src="https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/8ade0163e9fdbd92a4b7d7ee3aeab905.jpg?thumb=1&w=50&h=50" alt="" style="width: 40px;height: 40px;">
+                                <span class="text">小米云服务</span>
+                              </a>
+                            </li>
+                          </ul>
+                          <ul class="children-list children-list-col children-list-col-1">
+                            <li>
+                              <a href="./list.html" class="link">
+                                <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/461bf013d08a7a91423cafcbc5ff9339.jpg?thumb=1&w=50&h=50&f=webp&q=90" alt="" style="width: 40px;height: 40px;">
+                                <span class="text">Redmi K30 Pro 变焦版</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="./list.html" class="link">
+                                <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/7a98170e97ca5df8f5ad2470a8a2d01e.jpg?thumb=1&w=50&h=50&f=webp&q=90" alt="" style="width: 40px;height: 40px;">
+                                <span class="text">Redmi K30 5G</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="./list.html" class="link">
+                                <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/b2b8b609aab05d9ad184bbe5c8e8be28.jpg?thumb=1&w=50&h=50&f=webp&q=90" alt="" style="width: 40px;height: 40px;">
+                                <span class="text">Redmi K30 4G</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="./list.html" class="link">
+                                <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/22419dee5ddfa9f4a91782231d07e189.png?thumb=1&w=50&h=50&f=webp&q=90" alt="" style="width: 40px;height: 40px;">
+                                <span class="text">Redmi 10X Pro</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="./list.html" class="link">
+                                <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/f774ef8332f2204a7c8fbf1b92f29e8a.png?thumb=1&w=50&h=50&f=webp&q=90" alt="" style="width: 40px;height: 40px;">
+                                <span class="text">Redmi 10X 5G</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="./list.html" class="link">
+                                <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/afa28e7477639537f556eb46e3ca5f43.jpeg?thumb=1&w=50&h=50&f=webp&q=90" alt="" style="width: 40px;height: 40px;">
+                                <span class="text">Redmi 10X 4G</span>
+                              </a>
+                            </li>
+                          </ul>
+                          <ul class="children-list children-list-col children-list-col-1">
+                            <li>
+                              <a href="./list.html" class="link">
+                                <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/76378ce289a36fcfa29f704ba90b4155.png?thumb=1&w=50&h=50&f=webp&q=90" alt="" style="width: 40px;height: 40px;">
+                                <span class="text">Redmi Note 9 Pro</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="./list.html" class="link">
+                                <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/970c6b287eb89620f5ee8e2b347f6f3d.png?thumb=1&w=50&h=50&f=webp&q=90" alt="" style="width: 40px;height: 40px;">
+                                <span class="text">Redmi Note 9 5G</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="./list.html" class="link">
+                                <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/947721c8bc4a4ecc3bca17237ee64dea.png?thumb=1&w=50&h=50&f=webp&q=90" alt="" style="width: 40px;height: 40px;">
+                                <span class="text">Redmi Note 9  4G</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="./list.html" class="link">
+                                <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cba27e53367b74271a38a4515a692816.png?thumb=1&w=50&h=50&f=webp&q=90" alt="" style="width: 40px;height: 40px;">
+                                <span class="text">Redmi Note 8 Pro</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="./list.html" class="link">
+                                <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/b4534b9fd22f478314f3cbbf286b7338.png?thumb=1&w=50&h=50&f=webp&q=90" alt="" style="width: 40px;height: 40px;">
+                                <span class="text">Redmi Note 8</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="./list.html" class="link">
+                                <img src="https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/84e19ece0125992449a6276e2ba333e9.png?thumb=1&w=50&h=50" alt="" style="width: 40px;height: 40px;">
+                                <span class="text">手机上门维修</span>
+                              </a>
+                            </li>
+                          </ul>
+                          <ul class="children-list children-list-col children-list-col-1">
+                            <li>
+                              <a href="./list.html" class="link">
+                                <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/0cadc8b00dbe3b5615bd6ab657715baf.png?thumb=1&w=50&h=50&f=webp&q=90" alt="" style="width: 40px;height: 40px;">
+                                <span class="text">Redmi 9</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="./list.html" class="link">
+                                <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/1db88cd66ff1a6a3e75116988b7f3e12.jpg?thumb=1&w=50&h=50&f=webp&q=90" alt="" style="width: 40px;height: 40px;">
+                                <span class="text">Redmi 9A</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="./list.html" class="link">
+                                <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/47057d897ee2c05c9215e059e1308dc6.png?thumb=1&w=50&h=50&f=webp&q=90" alt="" style="width: 40px;height: 40px;">
+                                <span class="text">Redmi 8</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="./list.html" class="link">
+                                <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/77bfd346ad97807237beca297cfe2fba.png?thumb=1&w=50&h=50&f=webp&q=90" alt="" style="width: 40px;height: 40px;">
+                                <span class="text">Redmi 8A</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="./list.html" class="link">
+                                <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/f382e29367ad5852fc1adfdae1332d5c.png?thumb=1&w=50&h=50&f=webp&q=90" alt="" style="width: 40px;height: 40px;">
+                                <span class="text">腾讯黑鲨游戏手机</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="./list.html" class="link">
+                                <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/4d8753c35974699754af66388fc03a16.jpg?thumb=1&w=50&h=50&f=webp&q=90" alt="" style="width: 40px;height: 40px;">
+                                <span class="text">中国电信</span>
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <li class="category-item">
+                        <a href="#" class="title">
+                          电视 盒子
+                          <em class="iconfont icon-youjiantou"></em>
+                        </a>
+                        <div class="children children-col-4">
+                          <ul class="children-list children-list-col children-list-col-1">
+                            <li>
+                              <a href="./list.html" class="link">
+                                <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/37576cef378ef2805c20b9ab2a9d6d3d.png?thumb=1&w=50&h=50&f=webp&q=90" alt="" style="width: 40px;height: 40px;">
+                                <span class="text">小米透明电视</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="./list.html" class="link">
+                                <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/942d4f28d406f3946f0ce551c125c641.png?thumb=1&w=50&h=50&f=webp&q=90" alt="" style="width: 40px;height: 40px;">
+                                <span class="text">小米电视5 Pro 55英寸</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="./list.html" class="link">
+                                <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/d8264eb9b900ead63eea69f6fc1e413a.png?thumb=1&w=50&h=50&f=webp&q=90" alt="" style="width: 40px;height: 40px;">
+                                <span class="text">小米电视5 65英寸</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="./list.html" class="link">
+                                <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/93b55d27cd6e2100c25611eb828396ae.png?thumb=1&w=50&h=50&f=webp&q=90" alt="" style="width: 40px;height: 40px;">
+                                <span class="text">Redmi 智能电视 A系列</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="./list.html" class="link">
+                                <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/da1680fb62238cb5b01998d80fc34e25.png?thumb=1&w=50&h=50&f=webp&q=90" alt="" style="width: 40px;height: 40px;">
+                                <span class="text">量子点电视</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="./list.html" class="link">
+                                <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/070b329c18c1ab167df2a42564a67813.png?thumb=1&w=50&h=50&f=webp&q=90" alt="" style="width: 40px;height: 40px;">
+                                <span class="text">Redmi 智能电视 X系列</span>
+                              </a>
+                            </li>
+                          </ul>
+                          <ul class="children-list children-list-col children-list-col-1">
+                            <li>
+                              <a href="./list.html" class="link">
+                                <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/b8f12c8d20878e88b66047ef32566e48.png?thumb=1&w=50&h=50&f=webp&q=90" alt="" style="width: 40px;height: 40px;">
+                                <span class="text">小米电视大师 82英寸</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="./list.html" class="link">
+                                <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/d096389e19ba6b79b324b7d0acfab7ca.png?thumb=1&w=50&h=50&f=webp&q=90" alt="" style="width: 40px;height: 40px;">
+                                <span class="text">小米电视5 Pro 65英寸</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="./list.html" class="link">
+                                <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/23316088a9182a08c624958319924d8d.png?thumb=1&w=50&h=50&f=webp&q=90" alt="" style="width: 40px;height: 40px;">
+                                <span class="text">小米电视5 55英寸</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="./list.html" class="link">
+                                <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/319700f48d268f522664e1fc876b0044.png?thumb=1&w=50&h=50&f=webp&q=90" alt="" style="width: 40px;height: 40px;">
+                                <span class="text">小米全面屏电视E43K</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="./list.html" class="link">
+                                <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/d219d8b9c4a74eda4ae6c0222d194cd2.png?thumb=1&w=50&h=50&f=webp&q=90" alt="" style="width: 40px;height: 40px;">
+                                <span class="text">金属全面屏电视</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="./list.html" class="link">
+                                <img src="https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/554a4f8ea0c2c3ed19d843bea7321203.jpg?thumb=1&w=50&h=50" alt="" style="width: 40px;height: 40px;">
+                                <span class="text">小米盒子</span>
+                              </a>
+                            </li>
+                          </ul>
+                          <ul class="children-list children-list-col children-list-col-1">
+                            <li>
+                              <a href="./list.html" class="link">
+                                <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/7da49e7ada2229c963c9c7353a58d49b.png?thumb=1&w=50&h=50&f=webp&q=90" alt="" style="width: 40px;height: 40px;">
+                                <span class="text">大师电视 65英寸 OLED</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="./list.html" class="link">
+                                <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/da1680fb62238cb5b01998d80fc34e25.png?thumb=1&w=50&h=50&f=webp&q=90" alt="" style="width: 40px;height: 40px;">
+                                <span class="text">小米电视5 Pro 75英寸</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="./list.html" class="link">
+                                <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/1df560d16cc983b0f34d24fc484bd697.png?thumb=1&w=50&h=50&f=webp&q=90" alt="" style="width: 40px;height: 40px;">
+                                <span class="text">小米电视4A 60英寸</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="./list.html" class="link">
+                                <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/070b329c18c1ab167df2a42564a67813.png?thumb=1&w=50&h=50&f=webp&q=90" alt="" style="width: 40px;height: 40px;">
+                                <span class="text">Redmi 智能电视 X55</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="./list.html" class="link">
+                                <img src="https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/8aeae36f5d088f22c84b8953bd0d08b4.jpg?thumb=1&w=50&h=50" alt="" style="width: 40px;height: 40px;">
+                                <span class="text">小米全面屏电视</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="./list.html" class="link">
+                                <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/381acfeddeebcce4720ea7b8e481252f.png?thumb=1&w=50&h=50&f=webp&q=90" alt="" style="width: 40px;height: 40px;">
+                                <span class="text">电视音箱</span>
+                              </a>
+                            </li>
+                          </ul>
+                          <ul class="children-list children-list-col children-list-col-1">
+                            <li>
+                              <a href="#" class="link">
+                                <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/9d649ec3d7d14da7090e396d56b7cc92.jpg?thumb=1&w=50&h=50&f=webp&q=90" alt="" style="width: 40px;height: 40px;">
+                                <span class="text">Redmi 智能电视 MAX 98"</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="#" class="link">
+                                <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/d707cdac2a19703b57e65212f32fd25b.png?thumb=1&w=50&h=50&f=webp&q=90" alt="" style="width: 40px;height: 40px;">
+                                <span class="text">小米电视5 75英寸</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="#" class="link">
+                                <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/6797917392e912577135d9eb8ad92f1f.png?thumb=1&w=50&h=50&f=webp&q=90" alt="" style="width: 40px;height: 40px;">
+                                <span class="text">小米电视4A 70英寸</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="#" class="link">
+                                <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/8cb5791161d8b25897f60385f0ec7ab2.png?thumb=1&w=50&h=50&f=webp&q=90" alt="" style="width: 40px;height: 40px;">
+                                <span class="text">小米电视4S 75英寸</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="#" class="link">
+                                <img src="https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/5732e8f317eb86bfcb174fbb49d00c4a.jpg?thumb=1&w=50&h=50" alt="" style="width: 40px;height: 40px;">
+                                <span class="text">小米壁画电视</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="#" class="link">
+                                <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/4fa264c15d3829e6de4283a552651e22.png?thumb=1&w=50&h=50&f=webp&q=90" alt="" style="width: 40px;height: 40px;">
+                                <span class="text">激光投影电视</span>
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <li class="category-item">
+                        <a href="#" class="title">
+                          笔记本 显示器
+                          <em class="iconfont icon-youjiantou"></em>
+                        </a>
+                        <div class="children"></div>
+                      </li>
+                      <li class="category-item">
+                        <a href="#" class="title">
+                          家电 插线板
+                          <em class="iconfont icon-youjiantou"></em>
+                        </a>
+                        <div class="children"></div>
+                      </li>
+                      <li class="category-item">
+                        <a href="#" class="title">
+                          出行 穿戴
+                          <em class="iconfont icon-youjiantou"></em>
+                        </a>
+                        <div class="children"></div>
+                      </li>
+                      <li class="category-item">
+                        <a href="#" class="title">
+                          智能 路由器
+                          <em class="iconfont icon-youjiantou"></em>
+                        </a>
+                        <div class="children"></div>
+                      </li>
+                      <li class="category-item">
+                        <a href="#" class="title">
+                          电源 配件
+                          <em class="iconfont icon-youjiantou"></em>
+                        </a>
+                        <div class="children"></div>
+                      </li>
+                      <li class="category-item">
+                        <a href="#" class="title">
+                          健康 儿童
+                          <em class="iconfont icon-youjiantou"></em>
+                        </a>
+                        <div class="children"></div>
+                      </li>
+                      <li class="category-item">
+                        <a href="#" class="title">
+                          耳机 音响
+                          <em class="iconfont icon-youjiantou"></em>
+                        </a>
+                        <div class="children"></div>
+                      </li>
+                      <li class="category-item">
+                        <a href="#" class="title">
+                          生活 箱包
+                          <em class="iconfont icon-youjiantou"></em>
+                        </a>
+                        <div class="children"></div>
+                      </li>           
+                    </ul>
+                  </div>
+                </li>
+                <li data-index="0" class="nav-item">
+                  <a href="#" class="link">小米手机</a>
+                  <div class="item-children">
+                    <div class="center">
+                      <ul class="children-list">
+                        <li>
+                          <a href="#">
+                            <div class="figure">
+                              <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/b11742a0be47f9d97bb6a13ea580018d.png?thumb=1&w=200&h=138&f=webp&q=90" alt="">
+                            </div>
+                            <div class="title">小米10至尊纪念版</div>
+                            <p class="price">5299元</p>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <div class="figure">
+                              <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/a4a76ee684e51f0ee531ef3dc7f0aeaf.png?thumb=1&w=200&h=138&f=webp&q=90" alt="">
+                            </div>
+                            <div class="title">小米10</div>
+                            <p class="price">3799元起</p>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <div class="figure">
+                              <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/3bf20f1df3f2e22c5b29ff07634f3c59.png?thumb=1&w=200&h=138&f=webp&q=90" alt="">
+                            </div>
+                            <div class="title">小米10 青春版 5G</div>
+                            <p class="price">1899元起</p>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <div class="figure">
+                              <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/5d19da60f9f62eb2aa5dcdbd7df19f0f.png?thumb=1&w=200&h=138&f=webp&q=90" alt="">
+                            </div>
+                            <div class="title">小米MIX Alpha</div>
+                            <p class="price">19999元</p>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li data-index="1" class="nav-item">
+                  <a href="#" class="link">Redmi手机</a>
+                  <div class="item-children">
+                    <div class="center">
+                      <ul class="children-list">
+                        <li>
+                          <a href="#">
+                            <div class="figure">
+                              <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/584add2c9cfdb9eefe7b642bf191773a.png?thumb=1&w=200&h=138&f=webp&q=90" alt="">
+                            </div>
+                            <div class="title">Redmi Note 9 系列</div>
+                            <p class="price">999元起</p>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <div class="figure">
+                              <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/81808cd191332114f44d8d0cb0d0813a.png?thumb=1&w=200&h=138&f=webp&q=90" alt="">
+                            </div>
+                            <div class="title">Redmi K30S 至尊纪念版</div>
+                            <p class="price">2599元起</p>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <div class="figure">
+                              <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/31d0dc82068abcaa46464b4baa9fbbdf.jpg?thumb=1&w=200&h=138&f=webp&q=90" alt="">
+                            </div>
+                            <div class="title">Redmi K30 至尊纪念版</div>
+                            <p class="price">1999元起</p>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <div class="figure">
+                              <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/7bd1b02e0329bd5c41d193f01349f991.jpg?thumb=1&w=200&h=138&f=webp&q=90" alt="">
+                            </div>
+                            <div class="title">Redmi 9A</div>
+                            <p class="price">599元起</p>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <div class="figure">
+                              <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cff2977b8aab1e43b94b2f00083f4ae1.jpg?thumb=1&w=200&h=138&f=webp&q=90" alt="">
+                            </div>
+                            <div class="title">Redmi K30 系列</div>
+                            <p class="price">1399元起</p>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <div class="figure">
+                              <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/6a6548361871303764d6c66142074524.png?thumb=1&w=200&h=138&f=webp&q=90" alt="">
+                            </div>
+                            <div class="title">Redmi 10X</div>
+                            <p class="price">999元起</p>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li data-index="2" class="nav-item">
+                  <a href="#" class="link">电视</a>
+                </li>
+                <li data-index="3" class="nav-item">
+                  <a href="#" class="link">笔记本</a>
+                </li>
+                <li data-index="4" class="nav-item">
+                  <a href="#" class="link">家电</a>
+                </li>
+                <li data-index="5" class="nav-item">
+                  <a href="#" class="link">路由器</a>
+                </li>
+                <li data-index="6" class="nav-item">
+                  <a href="#" class="link">智能硬件</a>
+                </li>
+                <li data-index="7" class="nav-item">
+                  <a href="#" class="link">服务</a>
+                </li>
+                <li data-index="8" class="nav-item">
+                  <a href="#" class="link">社区</a>
+                </li>
+              </ul>
+            </div>
+            <div class="header_search">
+              <form action="" class="search-form">
+                <input type="text" class="search-text" autocomplete="off" placeholder="家电">
+                <input type="submit" class="search-btn iconfont icon-sousuo" value="&#xe652">
+                <ul></ul>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 轮播图 -->
+    <div class="banner center">
+      <div class="banner-box">
+        <div class="banner-top">
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="../img/banner1.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="../img/banner2.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="../img/banner3.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="../img/banner4.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="../img/banner5.jpg" alt=""></div>
+            </div>
+            <!-- 分页器 -->
+            <div class="swiper-pagination"></div>
+            <!-- 导航按钮 -->
+            <div class="swiper-button-prev" style="left: 244px;"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+        <div class="banner-bottom">
+          <div class="left">
+            <ul class="home-channel-list">
+              <li>
+                <a href="#">
+                  <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/82abdba456e8caaea5848a0cddce03db.png?w=48&h=48" alt="">
+                  小米秒杀
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/806f2dfb2d27978e33fe3815d3851fa3.png?w=48&h=48" alt="">
+                  企业团购
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/eded6fa3b897a058163e2485532c4f10.png?w=48&h=48" alt="">
+                  F码通道
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/43a3195efa6a3cc7662efed8e7abe8bf.png?w=48&h=48" alt="">
+                  米粉卡
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/f4846bca6010a0deb9f85464409862af.png?w=48&h=48" alt="">
+                  以旧换新
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/9a76d7636b08e0988efb4fc384ae497b.png?w=48&h=48" alt="">
+                  花费充值
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="right">
+            <ul>
+              <li style="margin-left: 0;">
+                <a href="#">
+                  <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/e5f20a62c3d5b3d6806bd51ab6c5dd12.jpg?w=632&h=340" alt="">
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/8a43378b96501d7e227a9018fe2668c5.jpg?w=632&h=340" alt="">
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/793913688bfaee26b755a0b0cc8575fd.jpg?w=632&h=340" alt="">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 商品列表 -->
+    <div class="goods" >
+      <div class="center">
+        <div class="home-brick-box home-brick-row">
+          <div class="box-hd">
+            <h2 class="title">手机</h2>
+            <div class="more">
+              <a href="./list.html" class="more-link">
+                查看全部
+                <i class="iconfont icon-rightarrow"></i>
+              </a>
+            </div>
+          </div>
+          <div class="box-bd">
+            <div class="row">
+              <div class="span4">
+                <ul class="brick-promo-list">
+                  <li class="brick-item">
+                    <a href="#">
+                      <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/574c6643ab91c6618bfb2d0e2c761d0b.jpg?thumb=1&w=293&h=768&f=webp&q=90" alt="">
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="span16">
+                <ul class="brick-list">
+                  <li class="brick-item brick-item-m brick-item-m-2">
+                    <a href="#">
+                      <div class="figure figure-img">
+                        <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/4e75e528fb468aee107f551179aa0799.jpg?thumb=1&w=250&h=250&f=webp&q=90" alt="">
+                      </div>
+                      <h3 class="title">Note 9 Pro</h3>
+                      <p class="desc">一亿像素夜景相机，120Hz六档变速高刷屏</p>
+                      <p class="price">
+                        <span class="num">1599</span>
+                        元
+                        <span>起</span>
+                      </p>
+                    </a>
+                  </li>
+                  <li class="brick-item brick-item-m brick-item-m-2">
+                    <a href="#">
+                      <div class="figure figure-img">
+                        <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/4e75e528fb468aee107f551179aa0799.jpg?thumb=1&w=250&h=250&f=webp&q=90" alt="">
+                      </div>
+                      <h3 class="title">Note 9 Pro</h3>
+                      <p class="desc">一亿像素夜景相机，120Hz六档变速高刷屏</p>
+                      <p class="price">
+                        <span class="num">1599</span>
+                        元
+                        <span>起</span>
+                      </p>
+                    </a>
+                  </li>
+                  <li class="brick-item brick-item-m brick-item-m-2">
+                    <a href="#">
+                      <div class="figure figure-img">
+                        <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/4e75e528fb468aee107f551179aa0799.jpg?thumb=1&w=250&h=250&f=webp&q=90" alt="">
+                      </div>
+                      <h3 class="title">Note 9 Pro</h3>
+                      <p class="desc">一亿像素夜景相机，120Hz六档变速高刷屏</p>
+                      <p class="price">
+                        <span class="num">1599</span>
+                        元
+                        <span>起</span>
+                      </p>
+                    </a>
+                  </li>
+                  <li class="brick-item brick-item-m brick-item-m-2">
+                    <a href="#">
+                      <div class="figure figure-img">
+                        <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/4e75e528fb468aee107f551179aa0799.jpg?thumb=1&w=250&h=250&f=webp&q=90" alt="">
+                      </div>
+                      <h3 class="title">Note 9 Pro</h3>
+                      <p class="desc">一亿像素夜景相机，120Hz六档变速高刷屏</p>
+                      <p class="price">
+                        <span class="num">1599</span>
+                        元
+                        <span>起</span>
+                      </p>
+                    </a>
+                  </li>
+                  <li class="brick-item brick-item-m brick-item-m-2">
+                    <a href="#">
+                      <div class="figure figure-img">
+                        <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/4e75e528fb468aee107f551179aa0799.jpg?thumb=1&w=250&h=250&f=webp&q=90" alt="">
+                      </div>
+                      <h3 class="title">Note 9 Pro</h3>
+                      <p class="desc">一亿像素夜景相机，120Hz六档变速高刷屏</p>
+                      <p class="price">
+                        <span class="num">1599</span>
+                        元
+                        <span>起</span>
+                      </p>
+                    </a>
+                  </li>
+                  <li class="brick-item brick-item-m brick-item-m-2">
+                    <a href="#">
+                      <div class="figure figure-img">
+                        <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/4e75e528fb468aee107f551179aa0799.jpg?thumb=1&w=250&h=250&f=webp&q=90" alt="">
+                      </div>
+                      <h3 class="title">Note 9 Pro</h3>
+                      <p class="desc">一亿像素夜景相机，120Hz六档变速高刷屏</p>
+                      <p class="price">
+                        <span class="num">1599</span>
+                        元
+                        <span>起</span>
+                      </p>
+                    </a>
+                  </li>
+                  <li class="brick-item brick-item-m brick-item-m-2">
+                    <a href="#">
+                      <div class="figure figure-img">
+                        <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/4e75e528fb468aee107f551179aa0799.jpg?thumb=1&w=250&h=250&f=webp&q=90" alt="">
+                      </div>
+                      <h3 class="title">Note 9 Pro</h3>
+                      <p class="desc">一亿像素夜景相机，120Hz六档变速高刷屏</p>
+                      <p class="price">
+                        <span class="num">1599</span>
+                        元
+                        <span>起</span>
+                      </p>
+                    </a>
+                  </li>
+                  <li class="brick-item brick-item-m brick-item-m-2">
+                    <a href="#">
+                      <div class="figure figure-img">
+                        <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/4e75e528fb468aee107f551179aa0799.jpg?thumb=1&w=250&h=250&f=webp&q=90" alt="">
+                      </div>
+                      <h3 class="title">Note 9 Pro</h3>
+                      <p class="desc">一亿像素夜景相机，120Hz六档变速高刷屏</p>
+                      <p class="price">
+                        <span class="num">1599</span>
+                        元
+                        <span>起</span>
+                      </p>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 网页底部 -->
+    <div class="footer">
+      <div class="center">
+        <div class="service">
+          <ul class="list-service">
+            <li>
+              <a href="">预约维修服务</a>
+            </li>
+            <li>
+              <a href="">7天无理由退货</a>
+            </li>
+            <li>
+              <a href="">15天免费换货</a>
+            </li>
+            <li>
+              <a href="">满99元包邮</a>
+            </li>
+            <li>
+              <a href="">520余家售后网点</a>
+            </li>
+          </ul>
+        </div>
+        <div class="links">
+          <dl class="col-links">
+            <dt>帮助中心</dt>
+            <dd>账户管理</dd>
+            <dd>购物指南</dd>
+            <dd>订单操作</dd>
+          </dl>
+          <dl class="col-links">
+            <dt>服务支持</dt>
+            <dd>售后政策</dd>
+            <dd>自助服务</dd>
+            <dd>相关下载</dd>
+          </dl>
+          <dl class="col-links">
+            <dt>线下门店</dt>
+            <dd>小米之家</dd>
+            <dd>服务网点</dd>
+            <dd>授权体验店</dd>
+          </dl>
+          <dl class="col-links">
+            <dt>关于小米</dt>
+            <dd>了解小米</dd>
+            <dd>加入小米</dd>
+            <dd>投资者关系</dd>
+            <dd>企业社会责任</dd>
+            <dd>廉洁举报</dd>
+          </dl>
+          <dl class="col-links">
+            <dt>关注我们</dt>
+            <dd>新浪微博</dd>
+            <dd>官方微信</dd>
+            <dd>联系我们</dd>
+            <dd>公益基金会</dd>
+          </dl>
+          <dl class="col-links">
+            <dt>特色服务</dt>
+            <dd>F码通道</dd>
+            <dd>礼物码</dd>
+            <dd>防伪查询</dd>
+          </dl>
+          <div class="col-contact">
+            <p class="phone">400-100-5678</p>
+            <p>8:00-18:00 (仅收市话费)</p>
+            <a href="#" class="handle-service btn-small btn">
+              <em></em>
+              人工服务
+            </a>
+            <div class="follow">
+              关注小米:
+              <a href="#" class="iconfont icon-xinlang"></a>
+              <a href="#" class="iconfont icon-gongzhonghao"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="../assets/jQuery/jquery.min.js"></script>
+  <script src="../assets/swiper/swiper-bundle.min.js"></script>
+  <script src="../js/public.js"></script>
+  <script src="../js/search.js"></script>
+  <script src="../js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+.logo{
+  width: 1130px;
+  margin: 0 auto;
+  .h-logo{
+    width: 200px;
+    height: 98px;
+    background: url(https://account.xiaomi.com/static/res/7f6f2f5/account-static/respassport/acc-2014/img/mistore_logo.png) no-repeat;
+    a{
+      display: block;
+      height: 98px;
+      text-indent: -9999em;
+    }
+  }
+}
+.login-banner{
+  background: url(https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/72644d9b8031286de3cc74e151aefd90.jpg);
+  width: 100%;
+  height: 588px;
+  position: relative;
+  background-repeat:no-repeat;
+  background-position: top center;
+  a{
+    display: block;
+    height: 588px;
+    text-indent: -9999em;
+  }
+  .login-box{
+    width: 410px;
+    height: 556px;
+    background-color: #fff;
+    position: absolute;
+    top: 30px;
+    right: 0;
+    .title{
+      text-align: center;
+      font-size: 30px;
+      padding: 10px 0;
+    }
+    .body{
+      padding: 0 20px;
+      font-size: 22px;
+      span{
+        font-size: 16px;
+        color: red;
+      }
+      .hide{
+        display: none;
+      }
+      .form-group{
+        margin: 10px 0;
+        input{
+          width: 350px;
+          height: 40px;
+          margin-top: 5px;
+          padding: 10px;
+        }
+      }
+      button{
+        width: 370px;
+        height: 60px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+      }
+      .login{
+        background-color: green;
+      }
+      .register{
+        background-color: orange;
+      }
+    }
+  }
+}

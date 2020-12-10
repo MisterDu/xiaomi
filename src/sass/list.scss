@@ -1,0 +1,149 @@
+body{
+  background-color: #f5f5f5;
+}
+.header{
+  background-color: #fff;
+}
+.content, .info {
+  margin-top: 30px;
+}
+
+.filterinfo li {
+  width: 100%;
+  height: 80px;
+  display: flex;
+}
+
+.filterinfo li > .left {
+  width: 130px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+}
+
+.filterinfo li > .right {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-evenly;
+}
+
+.filterinfo li > .right > span {
+  font-size: 14px;
+  padding: 5px 10px;
+  margin: 0 3px;
+  cursor: pointer;
+}
+
+.filterinfo li > .right > span.active,
+.filterinfo li > .right > span:hover {
+  background-color:#ff6700;
+  color: #fff;
+}
+
+.goodsList > ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+ .goodsList  li {
+  box-sizing: border-box;
+  float: left;
+  width: 23%;
+}
+
+ .goodsList  li h3 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+ .goodsList > li .price {
+  font-size: 20pxs;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination a {
+  padding: 0 5px;
+  border: 1px solid #333;
+  margin: 0 5px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+ul, li, ol {
+  list-style: none;
+}
+
+input, button, select {
+  outline: none;
+}
+
+a, a:hover, a:active, a:link, a:target {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.thumbnail{
+  .caption{
+    padding: 10px 5px;
+    h3{
+      font-size: 16px;
+    }
+    .price{
+      font-size: 16px;
+      padding: 10px 0;
+    }
+}
+}
+
+
+
+
+.top_header{
+  .header_nav{
+    .nav-list{
+      .nav-category{
+        .link-category{
+          visibility: visible;
+        }
+        &:hover{
+          .site-category{
+            display: block;
+          }
+        }
+        .site-category{
+          display: none;
+          border: 1px solid red;
+          .category-list{
+            background-color: #fff;
+            .category-item{
+              .title{
+                color:#333;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
